@@ -1,0 +1,57 @@
+.admin-dashboard {
+  padding: 2rem;
+  background: #f9f9f9;
+  min-height: 100vh;
+    margin:0 20vw;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  padding: 1rem;
+  background: white;
+  color:black;
+  border-left: 6px solid #ccc;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card.green { border-left-color: #00b894; }
+.card.red { border-left-color: #d63031; }
+.card.blue { border-left-color: #0984e3; }
+.card.purple { border-left-color: #6c5ce7; }
+.card.orange { border-left-color: #e17055; }
+.card.gold { border-left-color: #fdcb6e; }
+
+.expense-form {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  max-width: 400px;
+}
+
+.expense-form input {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.expense-form button {
+  width: 100%;
+  background: #6c5ce7;
+  color: white;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}

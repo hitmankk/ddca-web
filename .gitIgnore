@@ -1,0 +1,21 @@
+/node_modules
+/DDCA-Frontend/node_modules
+/DDCA-Backend/node_modules
+
+
+# testing
+/DDCA-Frontend/coverage
+
+
+
+# misc
+/DDCA-Backend/config/config.env
+/DDCA-Frontend/.DS_Store
+/DDCA-Frontend/.env.local
+/DDCA-Frontend/.env.development.local
+/DDCA-Frontend/.env.test.local
+/DDCA-Frontend/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

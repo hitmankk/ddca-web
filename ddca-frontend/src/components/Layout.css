@@ -1,0 +1,29 @@
+/* Layout container to wrap sidebar and homepage */
+.layout-container {
+    display: flex;
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden; /* Prevent scrollbars if unnecessary */
+  }
+  
+  .sidebar {
+    width: 250px; /* Fixed width for sidebar */
+    flex-shrink: 0; /* Prevent shrinking of sidebar */
+  }
+  
+  .home-content {
+    flex-grow: 1; /* Allow content to take remaining space */
+    padding: 20px;
+    overflow-y: auto; /* Enable scrolling if content overflows */
+    background-color: #f5f5f5; /* Light background for contrast */
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  

@@ -1,0 +1,154 @@
+/* General Styling */
+.about-page {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Header */
+  .about-header {
+    background: linear-gradient(to right, #1a1a2e, #16213e);
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .about-header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+  }
+  
+  /* About Us Section */
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+    padding: 20px;
+  }
+  
+  .about-text {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .about-text h2 {
+    font-size: 2rem;
+    color: #16213e;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .about-image {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Mission Section */
+  .mission-section {
+    background: #16213e;
+    color: white;
+    padding: 40px 80px;
+  }
+  
+  .mission-section h2 {
+    font-size: 2rem;
+  }
+  
+  .mission-section p {
+    font-size: 1.2rem;
+  }
+  
+  /* Why Choose Us Section */
+  .why-choose-section {
+    margin: 40px 0;
+  }
+  
+  .why-choose-section h2 {
+    font-size: 2rem;
+    color: #16213e;
+  }
+  
+  .why-choose-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .choose-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .choose-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .choose-card h3 {
+    font-size: 1.4rem;
+    margin: 10px 0;
+  }
+  
+  .choose-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Call to Action */
+  .cta-section {
+    background: #16213e;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 40px;
+  }
+  
+  .cta-section h2 {
+    font-size: 2rem;
+  }
+  
+  .cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background: #ff4500;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .cta-button:hover {
+    background: #d63c00;
+  }
+  
+  /* Footer */
+  .about-footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #1a1a2e;
+    color: white;
+  }
+  

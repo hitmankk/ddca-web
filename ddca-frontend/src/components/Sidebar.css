@@ -1,0 +1,58 @@
+.pro-sidebar {
+    background-color: #1a1a2e !important; /* Dark background */
+  }
+  
+  .pro-menu-item {
+    color: white !important; /* Text color */
+  }
+  
+  .pro-menu-item:hover {
+    background-color: #e94560 !important; /* Hover effect */
+  }
+  /* Sidebar.css */
+
+/* Sidebar.css */
+
+/* Fully override the internal gray */
+.ps-sidebar-container {
+  background: linear-gradient(180deg, rgba(0,0,0,0.95) 0%, rgba(10,0,0,1) 100%) !important;
+  color: #ffdddd !important;
+  border-right: 1px solid rgba(255, 0, 0, 0.25) !important;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.15);
+}
+
+/* Remove default gray menu color */
+.ps-menu-root {
+  background-color: transparent !important;
+}
+.ps-menu-button {
+  background-color: transparent !important;
+}
+.ps-menu-button:hover {
+  background-color: rgba(255, 0, 0, 0.1) !important;
+}
+.ps-active {
+  background-color: rgba(255, 0, 0, 0.2) !important;
+  color: #ff0000 !important;
+}
+
+/* Neon Red Footer Glow */
+.neon-footer-red {
+  text-shadow: 0 0 5px #ff0000, 0 0 15px #ff0000, 0 0 25px #ff0000;
+}
+
+/* Scrollbar hidden */
+.ps-sidebar-container {
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+.ps-sidebar-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Sidebar toggle hover */
+.sidebar-toggle:hover {
+  background: rgba(255, 0, 0, 0.1);
+  box-shadow: 0 0 15px #ff0000;
+  transition: all 0.3s ease;
+}

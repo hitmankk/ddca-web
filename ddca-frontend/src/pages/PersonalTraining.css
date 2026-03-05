@@ -1,0 +1,68 @@
+.personal-training-page {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero-section {
+    background: linear-gradient(to right, #1a1a2e, #001c68);
+    color: white;
+    padding: 40vh 20px;
+  }
+  
+  .cta-button, .consultation-button {
+    background: #ff4500;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .why-training, .training-programs, .trainers-section, .consultation-section {
+    margin: 40px auto;
+    max-width: 800px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .programs-list, .trainers-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .program-card, .trainer-card {
+    background: linear-gradient(to right, #1a1a2e, #001c68);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    color: white;
+  }
+  
+  .trainer-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  

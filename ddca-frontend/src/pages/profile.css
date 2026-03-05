@@ -1,0 +1,41 @@
+.home-page h2{
+    font-size:xx-large;
+    font-style: italic;
+    
+}
+.btn{
+  padding: 1rem;
+  width: 10vw;
+  background-color: #001c68  ;
+  color : white;
+  border-radius: 40px;
+  border: white;
+  font-size: 1rem;
+  box-shadow: 0px 0px 4px 1px rgb(155, 155, 155);
+}
+.profile-container {
+  max-width: 600px;
+  margin-left: 20%;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  height: 100vh;
+}
+
+
+.profile-input{
+    padding: 10px 10px 10px 10px;
+background-color: beige;
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+  
+
+}
+.logout-btn {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}

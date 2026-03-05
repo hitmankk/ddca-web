@@ -1,0 +1,125 @@
+/* General Styling */
+.contact-page {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Header */
+  .contact-header {
+    background: linear-gradient(to right, #1a1a2e, #16213e);
+    color: white;
+    padding: 40px 20px;
+  }
+  
+  .contact-header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+  }
+  
+  .contact-header p {
+    font-size: 1.2rem;
+  }
+  
+  /* Contact Information */
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+    flex-wrap: wrap;
+  }
+  
+  .info-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+  }
+  
+  .info-card h2 {
+    font-size: 1.5rem;
+    color: #16213e;
+  }
+  
+  .info-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Contact Form Section */
+  .contact-form-section {
+    background: #16213e;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 40px;
+  }
+  
+  .contact-form-section h2 {
+    font-size: 2rem;
+  }
+  
+  .contact-form-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .cta-button {
+    background: #ff4500;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background: #d63c00;
+  }
+  
+  /* Map Section */
+  .map-section {
+    margin-top: 40px;
+  }
+  
+  .map-section h2 {
+    font-size: 2rem;
+    color: #16213e;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  .contact-footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: #1a1a2e;
+    color: white;
+  }
+  
